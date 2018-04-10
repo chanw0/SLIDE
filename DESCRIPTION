@@ -1,9 +1,11 @@
 Package: SLIDE
-Title: What the Package Does (one line, title case)
-Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-Depends: R (>= 3.4.1)
-License: What license is it under?
-Encoding: UTF-8
-LazyData: true
+Type: Package
+Title: Retrospective Score Test for Case-Control Association Study
+
+Version: 0.1.0
+Author: Chan Wang, Leiming Sun, Liming Li and Yue-Qing Hu
+Maintainer: Chan Wang <cwang0789@gmail.com> and Yue-Qing Hu <yuehu@fudan.edu.cn>
+Description: R package with Score statistic tests incorporating linkage disequilibrium information for genetic association studies with multiple genetic variants and binary trait
+License: GPL
+LazyData: TRUE
+Packaged: 2018-04-10 07:06:35 UTC; home
