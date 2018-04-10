@@ -9,5 +9,5 @@ Description: R package with Score statistic tests incorporating linkage disequil
 License: GPL
 LazyData: TRUE
 Packaged: 2018-04-10 07:06:35 UTC; home
-URL: http://github.com/cwang0/SLIDE
+URL: http://github.com/chanw0/SLIDE
 BugReports: http://github.com/cwang0/SLIDE/issues
