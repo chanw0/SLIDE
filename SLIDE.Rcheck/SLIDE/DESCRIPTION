@@ -11,3 +11,4 @@ LazyData: TRUE
 Packaged: 2018-04-10 07:06:35 UTC; home
 URL: http://github.com/cwang0/SLIDE
 BugReports: http://github.com/cwang0/SLIDE/issues
+Built: R 3.3.0; ; 2018-04-10 18:31:30 UTC; windows

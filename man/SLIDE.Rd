@@ -26,7 +26,7 @@ The asymptotical p-value of SILDE may be little inflated when the sample size is
 }
 
 \references{Chan Wang, Leiming Sun, Liming Li and Yue-Qing Hu, Retrospective Score Test for Case-Control Association Study}
-\author{ Chan Wang, Leiming Sun, Liming Li and Yue-Qing Hu }
+\author{ Chan Wang and Yue-Qing Hu }
 \examples{
 
 library(MASS)

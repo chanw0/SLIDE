@@ -1,0 +1,109 @@
+* using log directory 'E:/SLIDE/SLIDE.Rcheck'
+* using R version 3.3.0 (2016-05-03)
+* using platform: x86_64-w64-mingw32 (64-bit)
+* using session charset: ISO8859-1
+* checking for file 'SLIDE/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'SLIDE' version '0.1.0'
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... WARNING
+Found the following executable files:
+  .git/objects/08/badb10c2cad04343ca77a46cf510c1feefa7bf
+  .git/objects/09/ba235072f42fd01993e84b8e07faca88d69af8
+  .git/objects/0f/f25dc1df3838160d3518e71f1be29e4bb4919f
+  .git/objects/10/83b3a4159916d46b887f27f6a42e8e91a16838
+  .git/objects/21/a4da087e1c026c953a49de88caea1247cd1f1b
+  .git/objects/4c/6769ffe8a53112043a29a94f9face589fdd02d
+  .git/objects/59/c74003a54032c94f02261944420bb36746095e
+  .git/objects/5f/4baf887f6ca34e892a288511a1538a17e3abd9
+  .git/objects/88/4a6312ae55caf2d5bac006d43fab89d8545080
+  .git/objects/8c/223f7e05acddf7ba482fe8c220690425898916
+  .git/objects/98/b0f12c6600703ca615f3f3b561fa193b0819cb
+  .git/objects/98/df7599b4c5ab14ffbd0ea90022aaa56dc9e17b
+  .git/objects/ba/445f550eeeb38df8f3036de63cb6f00f7c6abc
+  .git/objects/cb/a1b6b7a0a292098af0e0b1ce41b7846a59bd5e
+  .git/objects/d0/c5addc42812c51766ee8272f3c1b7359f24339
+  .git/objects/d7/5f824ec6278db24891505b14ab3d915514dba7
+  .git/objects/e3/1f0bd70328587ddbe37e55eaf183a2afb6610b
+  .git/objects/e9/c4d8b632d7a4ed4480e168d3c397d9137db7b5
+Source packages should not contain undeclared executable files.
+See section 'Package structure' in the 'Writing R Extensions' manual.
+* checking for hidden files and directories ... NOTE
+Found the following hidden files and directories:
+  .Rhistory
+  .gitignore
+  .Rproj.user
+  .git
+These were most likely included in error. See section 'Package
+structure' in the 'Writing R Extensions' manual.
+* checking for portable file names ... OK
+* checking whether package 'SLIDE' can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... NOTE
+Malformed Description field: should contain one or more complete sentences.
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... WARNING
+Found the following directory with the name of a check directory:
+  ./SLIDE.Rcheck
+Most likely, these were included erroneously.
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... NOTE
+Package in Depends field not imported from: 'MASS'
+  These packages need to be imported from (in the NAMESPACE file)
+  for when this namespace is loaded but not attached.
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+SILDE: no visible global function definition for 'cov'
+SILDE: no visible global function definition for 'ginv'
+SILDE: no visible global function definition for 'pchisq'
+Undefined global functions or variables:
+  cov ginv pchisq
+Consider adding
+  importFrom("stats", "cov", "pchisq")
+to your NAMESPACE file.
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... WARNING
+Undocumented code objects:
+  'SILDE' 'ld.em' 'permuC'
+All user-level objects in a package should have documentation entries.
+See chapter 'Writing R documentation files' in the 'Writing R
+Extensions' manual.
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... WARNING
+Objects in \usage without \alias in documentation object 'LD-EM':
+  'ld.em'
+
+Objects in \usage without \alias in documentation object 'SLIDE':
+  'SILDE'
+
+Objects in \usage without \alias in documentation object 'permutation':
+  'permuC'
+
+Functions with \usage entries need to have the appropriate \alias
+entries, and all their arguments documented.
+The \usage entries must correspond to syntactically valid R code.
+See chapter 'Writing R documentation files' in the 'Writing R
+Extensions' manual.
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking examples ... OK
+* checking PDF version of manual ... OK
+* DONE
+Status: 4 WARNINGs, 4 NOTEs

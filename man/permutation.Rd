@@ -12,5 +12,5 @@ This function is to permute cases and controls randomly.}
 \value{The matrix in which the first column is the phenotype and others are the corresponding genotype after permutation.}
 
 \references{Chan Wang, Leiming Sun, Liming Li and Yue-Qing Hu, Retrospective Score Test for Case-Control Association Study}
-\author{Chan Wang, Leiming Sun, Liming Li and Yue-Qing Hu }
+\author{Chan Wang and Yue-Qing Hu }
 

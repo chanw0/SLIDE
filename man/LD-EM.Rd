@@ -11,7 +11,7 @@ This function is to estimate pairwise linkage disequilibrium with EM algorithm. 
 \value{The list contains the LD matrix, \eqn{D'} matrix and \eqn{r^2} matrix.}
 
 \references{Chan Wang, Leiming Sun, Liming Li and Yue-Qing Hu, Linkage Disequilibrium on Improving Power in Case-Control Association Study}
-\author{ Chan Wang, Leiming Sun, Liming Li and Yue-Qing Hu }
+\author{ Chan Wang and Yue-Qing Hu }
 \examples{
 genotype<-matrix(sample(c(0,1,2),5000,replace=TRUE),500,10) ### 500 individuals and 10 SNPs
 
